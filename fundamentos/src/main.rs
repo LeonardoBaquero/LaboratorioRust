@@ -1,14 +1,18 @@
+
+// const SALUDO:& str= "saludos a todos"; 
+
 fn main() {
-    //let edad = 30; 
 
-   let mensaje = "Hola a todos";
+    let resultado = obtener_numero(10); 
 
-    //let valor = 20500; 
+    println!("el valor es: {}",resultado); 
 
-    //let valor2 = 19.88; 
-
-    //let actividad = true;  
-
-    println!("{}", mensaje);
-     
 }
+
+fn obtener_numero(n:i16)->i16{
+    
+    n
+
+}
+
+
