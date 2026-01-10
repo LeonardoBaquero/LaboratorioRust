@@ -3,7 +3,7 @@
 
 fn main() {
 
-    let resultado = obtener_numero(10); 
+    let resultado: i16 = obtener_numero(10); 
 
     println!("el valor es: {}",resultado); 
 
