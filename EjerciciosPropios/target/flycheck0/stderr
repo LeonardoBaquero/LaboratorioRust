@@ -1,60 +1,6 @@
     Blocking waiting for file lock on package cache
     Blocking waiting for file lock on package cache
-   0.026524800s  INFO prepare_target{force=false package_id=EjerciciosPropios v0.1.0 (C:\Users\leona\Documents\1. Cursos Udemy\Rust\Directorio de trabajo\EjerciciosPropios) target="EjerciciosPropios"}: cargo::core::compiler::fingerprint: fingerprint error for EjerciciosPropios v0.1.0 (C:\Users\leona\Documents\1. Cursos Udemy\Rust\Directorio de trabajo\EjerciciosPropios)/Check { test: false }/TargetInner { name: "EjerciciosPropios", doc: true, ..: with_path("C:\\Users\\leona\\Documents\\1. Cursos Udemy\\Rust\\Directorio de trabajo\\EjerciciosPropios\\src\\main.rs", Edition2024) }
-   0.026636000s  INFO prepare_target{force=false package_id=EjerciciosPropios v0.1.0 (C:\Users\leona\Documents\1. Cursos Udemy\Rust\Directorio de trabajo\EjerciciosPropios) target="EjerciciosPropios"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\leona\Documents\1. Cursos Udemy\Rust\Directorio de trabajo\EjerciciosPropios\target\debug\.fingerprint\EjerciciosPropios-8af0d379f02baa49\bin-EjerciciosPropios`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-   0.050508100s  INFO prepare_target{force=false package_id=EjerciciosPropios v0.1.0 (C:\Users\leona\Documents\1. Cursos Udemy\Rust\Directorio de trabajo\EjerciciosPropios) target="EjerciciosPropios"}: cargo::core::compiler::fingerprint: fingerprint error for EjerciciosPropios v0.1.0 (C:\Users\leona\Documents\1. Cursos Udemy\Rust\Directorio de trabajo\EjerciciosPropios)/Check { test: true }/TargetInner { name: "EjerciciosPropios", doc: true, ..: with_path("C:\\Users\\leona\\Documents\\1. Cursos Udemy\\Rust\\Directorio de trabajo\\EjerciciosPropios\\src\\main.rs", Edition2024) }
-   0.050632600s  INFO prepare_target{force=false package_id=EjerciciosPropios v0.1.0 (C:\Users\leona\Documents\1. Cursos Udemy\Rust\Directorio de trabajo\EjerciciosPropios) target="EjerciciosPropios"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\leona\Documents\1. Cursos Udemy\Rust\Directorio de trabajo\EjerciciosPropios\target\debug\.fingerprint\EjerciciosPropios-ef0e1c7a1aab297f\test-bin-EjerciciosPropios`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-    Checking EjerciciosPropios v0.1.0 (C:\Users\leona\Documents\1. Cursos Udemy\Rust\Directorio de trabajo\EjerciciosPropios)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.26s
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on shared package cache
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.05s
