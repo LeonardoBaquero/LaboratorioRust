@@ -1,0 +1,1 @@
+C:\Users\leona\Documents\1.\ Cursos\ Udemy\Rust\Directorio\ de\ trabajo\ejemplos2\target\debug\ejemplos2.exe: C:\Users\leona\Documents\1.\ Cursos\ Udemy\Rust\Directorio\ de\ trabajo\ejemplos2\src\main.rs

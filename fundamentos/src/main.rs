@@ -1,17 +1,12 @@
 
-// const SALUDO:& str= "saludos a todos"; 
-
 fn main() {
+   let numero = 192; 
 
-    let resultado: i16 = obtener_numero(10); 
-
-    println!("el valor es: {}",resultado); 
-
-}
-
-fn obtener_numero(n:i16)->i16{
-    
-    n
+   if numero == 19 {
+    println!("El valor es 19")
+   }else {
+       println!("El valor NO es 19")
+   }
 
 }
 
